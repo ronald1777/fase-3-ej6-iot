@@ -1,0 +1,10 @@
+#!/bin/bash
+# Paso 2: variables de entorno con las claves de AWS.
+# COPIAR este archivo como 02_variables_entorno.sh, reemplazar los valores
+# y ejecutarlo con "source" (no con "bash") para que las variables
+# permanezcan en la sesion actual de la terminal:
+#     source 02_variables_entorno.sh
+# NUNCA subir el archivo con las claves reales a GitHub.
+export AWS_ACCESS_KEY_ID="Reemplazar aqui"
+export AWS_SECRET_ACCESS_KEY="Reemplazar aqui"
+export AWS_DEFAULT_REGION="us-east-1"
